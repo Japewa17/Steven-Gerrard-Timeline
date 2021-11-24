@@ -1,0 +1,199 @@
+* {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+  }
+  
+  /* HEADER SECTION */
+  
+  header {
+    position: fixed;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background-color: #410B13;
+    align-items: center;
+    margin: auto;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    opacity: 0.98;
+    box-shadow: 1px 2px 3px #410B13;
+    flex-wrap: nowrap;
+      
+  }
+  
+  .title-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-shrink: 1;
+    
+  }
+  
+  header h1 {
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0.4px 0.7px 1px;
+    white-space: nowrap;
+    
+    
+  }
+  
+  nav {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+  
+  
+    
+  }
+  
+  nav ul {
+    position: relative;
+    color: white;
+    display: flex;
+    list-style: none;
+    margin-right: 1rem;
+    width: 100%;
+    justify-content: flex-end;
+   
+     
+  }
+  
+  nav li {
+    display: flex;
+    font-size: 1.2rem;
+    text-shadow: 0.5px 1px 1.5px;
+    flex-wrap: nowrap;
+    margin-right: 1rem;
+    white-space: nowrap;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.0001rem;
+    
+  }
+  
+    
+    @media only screen and (max-width: 840px) {
+      nav li {
+        font-size: 0.6rem;
+      }
+      header h1 {
+        font-size: 1.2rem;
+      }
+      
+      .Stevie-Container img {
+        height: 20rem;
+        width: 32.5rem;
+        margin-bottom: 1rem;
+       
+      }
+      
+    }
+    
+   
+    
+    
+  
+  
+  
+  /*Stevie Image Section*/
+  
+  .Stevie-Container {
+    position: relative;
+    display: flex;
+    margin-top: 7rem;
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.98;
+    min-width: auto;
+    flex-shrink: 1;
+    min-width: 0;
+    min-height: 0;
+  
+   
+    
+  }
+  
+  .Stevie {
+    position: relative;
+    height: 40rem;
+    width: 55.6rem;
+    box-shadow: 20px 30px 50px ;
+    border-radius: 0.2rem;
+   
+  }
+  
+  .caption-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+   
+    
+  }
+  .caption-flex figcaption {
+    text-align: center;
+    margin-top: 2rem;
+    
+  }
+   /*TIMELINE SECTION*/
+  
+  .timeline-flex {
+    margin-top: 3rem;
+    display: flex;
+    min-height: 60rem;
+    width: auto;
+    justify-content: center;
+    border: 0.0025rem solid #410B13 ;
+    
+  }
+  
+  timeline-flex ul{
+    width: auto;
+    
+  }
+  
+  .timeline-flex li {
+    line-height: 3rem;
+  }
+  
+  .timeline-flex li b{
+    font-size: 1.4rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #410B13;
+    width: 100%;
+    margin-top: 1rem;
+    height: 5rem;
+    align-items: center;
+    
+  }
+  
+  footer p {
+    font-style: italic;
+    color: white;
+    font-size: 0.8rem;
+  }
